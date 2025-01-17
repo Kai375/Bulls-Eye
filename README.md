@@ -33,13 +33,11 @@ A program that plays Bulls-Eye.
            
          -  If there is no match at all between all three characters, then `n` will be displayed.
         
-         -  If there are three `b`'s, then the game will end (this must be done by returning a value of `-1` in the `$v0` register from the
+         -  If there are three `b`'s, then the game will end in a **Bulls-Eye** (this must be done by returning a value of `-1`
            
-            `compare` procedure,
-           
-            which will cause a return of `-1` in the `$v0` register from the `get_number` procedure, which will be the signal for `main`
+            in the `$v0 register` from the `compare` procedure, which will cause a return of `-1` in the `$v0 register` from the
             
-            to end the program).
+            `get_number` procedure, which will be the signal for `main`  to end the program).                                                                   
 
   * 3.   After the game ends, the player will be asked whether to start another game or finish.  
 
