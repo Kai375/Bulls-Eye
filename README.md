@@ -14,9 +14,11 @@ A program that plays Bulls-Eye.
      
      parameter.
 
- * 2. Now in the loop, you have to try to guess the 3 characters in `bool`, We will use the auxiliary array `guess`, which is also defined in
+ * 2. Now in the loop, you have to try to guess the 3 characters in `bool`, We will use the auxiliary array `guess`,
       
-       `.data`.
+      which is also defined in `.data`.
+      
+       
        - From the `main` function, a procedure named `get_guess` must be called that accepts as parameters the address of `bool` and the
          
          address of `guess`.
@@ -48,3 +50,22 @@ A program that plays Bulls-Eye.
 
 # String Formatter
  A rudimentary string manipulation function.
+
+ ### Discription:
+
+The program will ask the user to type (`syscall 8`) a number of words separated by a single space character,
+
+and will record the words into the string `StringBuffer`. 
+
+The maximum length of the string is 80 characters.
+
+The program works with uppercase or lowercase letters (or both).
+
+The program will go through the string and check the following: (The results will be listed to the right of the corresponding string)
+
+  * 1. Count how many words are in the string.
+  * 2. Count how many letters are in the longest word in the string.
+  * 3. Count how many letters are in the shortest word in the string.
+  * 4. Calculate the difference between the number of letters in sections ii and iii.
+  * 5. Calculate the number of characters in the string, excluding spaces characters.
+    
